@@ -1,0 +1,272 @@
+body {
+    background-color: #1e0031;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #2c0047;
+}
+
+footer {
+    background-color: #2c0047;
+}
+
+/* Estilos para la sección de Inicio */
+#inicio {
+    background-color: #2c0047;
+    padding: 50px 0;
+}
+
+#inicio h1 {
+    color: #fff;
+    text-shadow: 0 0 8px #ffffff88;
+    font-family: 'Arial', sans-serif;
+}
+
+#inicio .text-highlight {
+    color: #ff33ff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#inicio .btn-primary-custom {
+    background: linear-gradient(90deg, #ff33ff, #aa00ff);
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: none;
+}
+
+#inicio .btn-primary-custom:hover {
+    background: linear-gradient(90deg, #aa00ff, #ff33ff);
+}
+
+#inicio .graphics {
+    position: relative;
+}
+
+#inicio .graphic-icon {
+    width: 70px;
+    margin: 10px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Sección de Cursos */
+#cursos h2 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 0 8px #ffffff88;
+}
+
+#cursos .card {
+    border: none;
+}
+
+#cursos .card-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+#cursos .rounded-card {
+    border-radius: 15px;
+}
+
+#cursos .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Filtro oscuro */
+    border-radius: 15px;
+}
+
+#cursos .btn-custom {
+    background-color: #ff33ff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#cursos .btn-custom:hover {
+    background-color: #ff66ff;
+}
+
+/* Estilos para la sección de Planes de Cursos */
+#planes h2 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 0 8px #ffffff88;
+}
+
+#planes .rounded-card {
+    border-radius: 15px;
+}
+
+#planes .text-custom {
+    color: #ff33ff; /* Color personalizado para títulos de planes */
+}
+
+#planes .btn-custom {
+    background-color: #ff33ff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#planes .btn-custom:hover {
+    background-color: #ff66ff;
+}
+
+/* Estilos para la sección de Paquetes */
+#paquetes h2 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 0 8px #ffffff88;
+}
+
+#paquetes .rounded-card {
+    border-radius: 15px;
+}
+
+#paquetes .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Filtro oscuro */
+    border-radius: 15px;
+}
+
+#paquetes .text-custom {
+    color: #ff33ff; /* Color personalizado para los títulos */
+}
+
+#paquetes .card h6 {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+#paquetes.card h5 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#paquetes .card p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Estilos para la sección de Programación y Tecnologías Emergentes */
+#programacion h2 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 0 8px #ffffff88;
+}
+
+#programacion .rounded-card {
+    border-radius: 15px;
+}
+
+#programacion .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Filtro oscuro */
+    border-radius: 15px;
+}
+
+#programacion .text-custom {
+    color: #ff33ff; /* Color personalizado para los títulos */
+}
+
+#programacion .card h5 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#programacion .card p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Estilos para la sección de Preguntas Frecuentes */
+#preguntasFrecuentes {
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b); /* Fondo degradado */
+    padding: 50px;
+    border-radius: 15px;
+}
+
+#preguntasFrecuentes h2 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 0 8px #ffffff88;
+}
+
+#preguntasFrecuentes h5 {
+    color: #ff33ff; /* Color personalizado para los títulos de preguntas */
+}
+
+#preguntasFrecuentes p {
+    color: #fff;
+}
+
+/* Estilos para la sección Sobre Nosotros */
+#sobreNosotros {
+    background-color: #2c0047; /* Fondo oscuro */
+    padding: 50px;
+    border-radius: 15px;
+}
+
+#sobreNosotros h2 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 0 8px #ffffff88;
+}
+
+#sobreNosotros p {
+    color: #fff;
+}
+
+#sobreNosotros .btn-primary-custom {
+    background-color: #ff33ff;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+
+#sobreNosotros .btn-primary-custom:hover {
+    background-color: #ff66ff;
+}
+
+#sobreNosotros .btn-outline-custom {
+    color: #ff33ff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid #ff33ff;
+}
+
+#sobreNosotros .btn-outline-custom:hover {
+    color: #fff;
+    background-color: #ff33ff;
+}
+
+#sobreNosotros .rounded-card {
+    border-radius: 15px;
+}
+
+
