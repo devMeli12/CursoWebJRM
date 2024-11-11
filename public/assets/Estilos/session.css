@@ -1,0 +1,71 @@
+/* CSS */
+body {
+  background-color: #281549 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff !important;
+  font-family: Arial, sans-serif;
+}
+.form-label {
+  text-align: left;
+  display: block;
+  margin-bottom: 0.5rem; /* Ajuste opcional para el espaciado */
+}
+
+
+.login-container {
+  max-width: 350px;
+  padding: 2rem;
+  text-align: center; /* Centrar todo el contenido */
+}
+
+.login-icon {
+  font-size: 100px;
+  color: #f06aff !important;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border: 2px solid #f06aff !important;
+  border-radius: 30px !important;
+  color: #fff !important;
+  background-color: #281549 !important;
+}
+
+.form-control::placeholder {
+  color: #ffffff !important;
+  opacity: 1;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #f06aff !important;
+}
+
+.btn-login {
+  background: linear-gradient(90deg, #6a11cb, #f06aff);
+  color: white;
+  border: none;
+  border-radius: 30px !important;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0 auto; /* Centra el botón sin modificar su tamaño */
+  display: block; /* Asegura que se centre horizontalmente */
+}
+
+.btn-login:hover {
+  background: linear-gradient(90deg, #f06aff, #6a11cb);
+}
+
+.register-link {
+  color: #f06aff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
