@@ -30,12 +30,12 @@ function validateForm() {
     password.classList.remove('is-invalid');
   }
 
-  /* return isValid; */
+  return isValid;
 
-  if(isValid){
-    window.location.href = "/CursoWebJRM/public/pages/cursos.php";
-  }
+ /*  if(isValid){
+    window.location.href = "../../../public/pages/cursos.php";
+  } */
 
-  return false;
+  /* return false; */
 
 }

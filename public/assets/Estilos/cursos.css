@@ -1,0 +1,43 @@
+body {
+  background-color: #281549;
+}
+
+h2 {
+  color: #4B0082;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {  
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #BB9ED8 !important;
+}
+
+.custom-bullets {
+  list-style-type: disc; /* Cambia el tipo de viñeta a punto */
+  padding-left: 20px; /* Añade espacio a la izquierda para las viñetas */
+}
+
+.custom-bullets li {
+  margin-bottom: 10px; /* Añade espacio entre los elementos de la lista */
+}
