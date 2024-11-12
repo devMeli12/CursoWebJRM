@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/Estilos/session.css">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <title>Document</title>
 </head>
@@ -34,12 +34,13 @@
         <div class="invalid-feedback">La contraseña debe tener al menos 8 caracteres.</div>
       </div>
       <div class="mt-3">
-        <button type="submit" class="btn btn-login">Ingresar</button>
+      <button type="button" class="btn btn-login" onclick="location.href='../pages/cursos.php'">Ingresar</button>
+
       </div>
     </form>
   </div>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
-  <script src="../assets/Scripts/registro.js"></script>
+  <!-- <script src="../assets/Scripts/registro.js"></script> -->
   <script src="../assets/Bootstrap/js/bootstrap.bundle.js"></script>
 </html>
