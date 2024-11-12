@@ -17,20 +17,22 @@
     </div>
 
     <!-- Formulario -->
-    <form>
+    <form onsubmit="return validateForm()">
       <div class="mb-3">
         <label for="texto" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="texto" placeholder="">
+        <input type="text" class="form-control" id="texto" placeholder="" required minlength="3">
+        <div class="invalid-feedback">El nombre debe tener al menos 3 letras y solo debe contener letras.</div>
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Correo</label>
-        <input type="email" class="form-control" id="email" placeholder="">
+        <input type="email" class="form-control" id="email" placeholder="" required>
+        <div class="invalid-feedback">Por favor, ingresa un correo válido.</div>
       </div>
       <div class="mb-3">
         <label for="password" class="form-label">Contraseña</label>
-        <input type="password" class="form-control" id="password" placeholder="">
+        <input type="password" class="form-control" id="password" placeholder="" required minlength="8">
+        <div class="invalid-feedback">La contraseña debe tener al menos 8 caracteres.</div>
       </div>
-      <!-- <a href="#" class="register-link">Registrate si aún no tienes cuenta</a> -->
       <div class="mt-3">
         <button type="submit" class="btn btn-login">Ingresar</button>
       </div>
@@ -38,6 +40,6 @@
   </div>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+  <script src="../assets/Scripts/registro.js"></script>
   <script src="../assets/Bootstrap/js/bootstrap.bundle.js"></script>
-</body>
 </html>
